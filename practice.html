@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Part 2</title>
+    <script src="practice.js" defer></script>
+    <link rel="stylesheet" href="practice.css">
+</head>
+<body>
+  <h1>Part 2 – JavaScript</h1>
+  
+  <section id="task6">
+    <h2>Task 6. A counter with click events</h2>
+    <p>Counter: <span id="counterValue">0</span></p>
+    <button id="increase">Increase</button>
+    <button id="decrease">Decrease</button>
+    <button id="reset">Reset</button>
+  </section>
+
+  <section id="task7">
+    <h2>Task 7. Live text preview</h2>
+    <label for="textInput">Type your text:</label>
+    <input type="text" id="textInput">
+    <button id="clear">Clear</button>
+    <p>Preview:</p>
+    <p id="preview">Your text will appear here</p>
+    <p>Characters: <span id="charCount">0</span></p>
+  </section>
+
+  <section id="task8">
+    <h2>Task 8. Change an image with a select control</h2>
+    <label for="imageSelect">Choose a pet:</label>
+    <select id="imageSelect">
+        <option value="cat">Cat</option>
+        <option value="dog">Dog</option>
+        <option value="rabbit">Rabbit</option>
+    </select>
+    <br>
+    <img id="petImg" src="images/cat.png" alt="A white and orange cat with big eyes standing on a gray stool" width="300">
+    <p id="caption">Cat: a fluffy cat looking straight into the camera.</p>
+  </section>
+
+  <section id="task9">
+    <h2>Task 9. Keyboard events</h2>
+    <form id="keyForm">
+        <label for="keyInput">Type here (Enter to show, Escape to clear):</label>
+        <input type="text" id="keyInput">
+    </form>
+    <p>Status: <span id="keyStatus">No key pressed yet</span></p>
+    <p>Result: <span id="keyResult"></span></p>
+  </section>
+
+  <section id="task10">
+    <h2>Task 10. Mouse and focus events</h2>
+    <div id="card" class="card" tabindex="0">Hover or focus me</div>
+    <p id="cardInfo">Move the mouse over the card or press Tab to focus it.</p>
+    <ul>
+        <li><b>Mouseenter</b>: pointer enters the card, so the highlight is added and the text changes.</li>
+        <li><b>Mouseleave</b>: pointer leaves the card, so the highlight is removed and the text is restored.</li>
+        <li><b>Focus</b>: the card gets keyboard focus (Tab), same effect as mouseenter.</li>
+        <li><b>Blur</b>: the card loses focus, same effect as mouseleave.</li>
+    </ul>
+  </section>
+</body>
+</html>

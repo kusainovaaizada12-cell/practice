@@ -1,0 +1,15 @@
+.card {
+  display: inline-block;
+  padding: 20px;
+  border: 2px solid gray;
+}
+
+.card.highlight {
+  background: rgb(255, 145, 235);
+  border-color: rgb(90, 216, 255);
+}
+
+.card:focus {
+  outline: 3px solid blue;
+  outline-offset: 2px;
+}
